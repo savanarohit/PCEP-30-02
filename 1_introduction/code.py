@@ -31,3 +31,35 @@ DAY5_SALES = 13
 TOTAL_SALES = DAY1_SALES + DAY2_SALES + DAY3_SALES + DAY4_SALES + DAY5_SALES
 AVG_WEEKLY_SALES = TOTAL_SALES / 5
 print(AVG_WEEKLY_SALES)
+
+# Data Types - data types are categories of values that determine how they can be used and manipulated. There are several built-in data types in Python, including integers, floats, strings, booleans, lists, tuples, and dictionaries.
+
+# Example
+
+# Int
+AGE = 25
+print(type(AGE))
+
+# Floats
+WEIGHT = 65.4
+print(type(WEIGHT))
+
+# String
+NAME = "Robbin"
+print(type(NAME))
+
+# Booleans
+IN_STOCK = True
+print(type(IN_STOCK))
+
+# Lists
+grocery_list = ["milk", "eggs", "bread"]
+print(type(grocery_list))
+
+# Tuples
+coordinates = (52.345, -1.2345)
+print(type(coordinates))
+
+# Dictionaries
+customer = {"name": "John Doe", "age": "25", "email": "johndoe@example.com"}
+print(type(customer))
