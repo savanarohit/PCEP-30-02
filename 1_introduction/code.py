@@ -1,5 +1,7 @@
-# This is a basic python code
+# single line output using print() function
 print("Hello World!")
+
+# Multiline output using print() function
 print("Hello", "World!")
 print(
     """Hello World this
@@ -7,6 +9,7 @@ print(
 )
 
 # Test - Let's practice the print() function. Show the following message to the output:
+
 # I'm learning to become a Python developer!
 # I'm so excited!
 
@@ -14,3 +17,6 @@ print(
 # Remember that any typo in your solution will make it marked as incorrect.
 
 print("I'm learning to become a Python developer!\nI'm so excited!")
+
+
+# Variable -
