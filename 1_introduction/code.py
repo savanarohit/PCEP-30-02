@@ -21,7 +21,7 @@ print("I'm learning to become a Python developer!\nI'm so excited!")
 
 # Variable - a variable is a reserved memory location to store data values that can be modified during the execution of a program. The name of a variable is used to access its stored value.
 
-# Example - Store daily sales data in variables to get average weekly sales number
+# Example - Store daily sales data in variables.Then get Average weekly Sales number
 DAY1_SALES = 10
 DAY2_SALES = 15
 DAY3_SALES = 18

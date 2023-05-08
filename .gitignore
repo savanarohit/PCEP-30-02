@@ -162,5 +162,5 @@ cython_debug/
 # Folders
 /.vscode
 /7_etc
-/8_mock_exam
+
 
