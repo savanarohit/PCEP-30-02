@@ -8,7 +8,7 @@ print(
       is multiline text"""
 )
 
-# Test - Let's practice the print() function. Show the following message to the output:
+# Example - Using print() Show the following message to the output:
 
 # I'm learning to become a Python developer!
 # I'm so excited!
@@ -63,3 +63,11 @@ print(type(coordinates))
 # Dictionaries
 customer = {"name": "John Doe", "age": "25", "email": "johndoe@example.com"}
 print(type(customer))
+
+
+# Comments in Python
+
+# Hash can be used for single line comment
+# Triple quote can be used for multiline comment
+
+# Numerical Representations in Python
