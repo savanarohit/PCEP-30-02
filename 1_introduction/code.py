@@ -71,3 +71,34 @@ print(type(customer))
 # Triple quote can be used for multiline comment
 
 # Numerical Representations in Python
+
+# Integers
+x = 5
+print(type(x))
+
+# Floating-point Numbers
+x = 2.0
+print(type(x))
+
+# Complex Numbers
+z = 2 + 3j
+print(type(z))
+
+# Scientific notation
+print(4e10)
+print(type(4e10))
+
+# Scientific notation for small numbers
+print(0.0000000004)
+
+# Octal numbers - octal numbers are represented using the prefix 0o or 0O, followed by a sequence of octal digits (0-7).
+x = 0o10
+print(x)
+print(type(x))
+
+# hexadecimal numbers - hexadecimal numbers are represented using the prefix 0x or 0X, followed by a sequence of hexadecimal digits (0-9 and A-F or a-f).
+x = 0x1A
+print(x)
+
+
+# Operators
