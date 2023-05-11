@@ -101,4 +101,4 @@ x = 0x1A
 print(x)
 
 
-# Operators - Python
+# Operators - Operators are special symbols that perform operations on values or variables. They are used to manipulate data, perform calculations, compare values, and control program flow. Python supports a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, assignment operators, membership operators, and identity operators.
