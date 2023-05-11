@@ -65,10 +65,14 @@ customer = {"name": "John Doe", "age": "25", "email": "johndoe@example.com"}
 print(type(customer))
 
 
-# Comments in Python
+# Comments in Python - Hash can be used for single line comment and Triple quote can be used for multiline comment
 
-# Hash can be used for single line comment
-# Triple quote can be used for multiline comment
+# Single Line comment
+
+"""MultiLine
+   comment
+"""
+
 
 # Numerical Representations in Python
 
@@ -102,3 +106,44 @@ print(x)
 
 
 # Operators - Operators are special symbols that perform operations on values or variables. They are used to manipulate data, perform calculations, compare values, and control program flow. Python supports a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, assignment operators, membership operators, and identity operators.
+
+#  Arithmetic Operators - To perform Mathematic operations
+a = 20
+b = 15
+c = 30.5
+
+# Addition (+)
+print(a + b)
+
+# Subtraction (-)
+print(c - a)
+
+# Multiplication (*)
+print(a * b)
+
+# Division (/)
+print(a / b)
+
+# Exponent (**)
+print(a**b)
+
+# Modulus (%)
+print(a % b)
+
+# Floor Division (//)
+print(a // b)
+
+# String Operator
+
+# (*) For replication
+print("Python\n" * 3)
+print("4\n" * 3)
+
+# (+) For String Concatenation - Combining two or more strings
+x = "First string"
+y = "Second string"
+z = x + y
+
+print("Combined String is:", (z))
+print("Combined String is:", x + y)  # Always use ,
+print("Combined String is:" + x + y)
