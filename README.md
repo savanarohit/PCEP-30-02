@@ -1,4 +1,4 @@
-# PCEP – Certified Entry-Level Python Programmer-PCEP-30-02
+# PCEP-30-02 - Certified Entry-Level Python Programmer
 
 PCEP™ – Certified Entry-Level Python Programmer certification (Exam PCEP-30-0x) is a professional credential that measures the candidate's ability to accomplish coding tasks related to the essentials of programming in the Python language. A test candidate should demonstrate sufficient knowledge of the universal concepts of computer programming, the syntax and semantics of the Python language, as well as the skills in resolving typical implementation challenges with the help of the Python Standard Library.
 
