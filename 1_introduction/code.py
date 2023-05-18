@@ -148,3 +148,17 @@ print("Combined String is:", (z))
 print("Combined String is:", x + y)  # Always use ,
 print("Combined String is:" + x + y)
 
+# Reassigning values - Reassigning values in Python refers to the process of changing the value associated with a variable
+
+# Define a variable and assign an initial value
+x = 5
+print("Initial value of x", x)
+
+# Reassign a new value of the variable
+x = 10
+print("New value of x", x)
+
+
+# Input() Function - the input() function is used to prompt the user for input from the keyboard. It reads the user's input as a string and returns that value
+name = input("Please enter your name:")
+print("Hello, " + name + " !How can I assist you today?")
