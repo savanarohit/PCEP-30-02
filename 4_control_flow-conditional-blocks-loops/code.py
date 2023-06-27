@@ -25,7 +25,6 @@ elif X < Y:  # Since it is True it will exit from the flow.
 elif X == Y:  # This block of code does not executed.
     print("X is equal to Y")
 
-
 # Logical Operators are used to perform logical operations on Boolean values (True or False). There are three logical operators available in Python: and, or, and not. These operators allow you to combine multiple Boolean expressions and evaluate their truth values.
 
 # <
@@ -45,10 +44,14 @@ if userinput == password:
 else:
     print("Password not match")
 
+# Joining Multiple Conditions using and , or and not
+# Boolean Operators Priority
+# 1. NOT
+# 2. AND
+# 3. OR
 
-# Joining Multiple Conditions ( and , or , not)
 
-# Example - and    (Both condition should be True)
+# Example - and  (Both condition should be True)
 user_age = int(input("Enter your age: "))
 user_country = input("Enter your country name: ")
 
@@ -57,7 +60,7 @@ if user_age < 25 and user_country == "India":
 else:
     print("Sorry, you do not qualify")
 
-# Example - or  (Any one condition should be True)
+# Example - or (Any one condition should be True)
 user_age = int(input("Enter you age: "))
 user_country = input("Enter your country name: ")
 
@@ -72,3 +75,35 @@ if not user_country == "India":
     print("You are not from India")
 else:
     print("You are from India")
+
+# Example with all - and , or and not
+user_age = int(input("Enter you age: "))
+user_country = input("Enter you country name: ")
+
+if (
+    not user_country == "India"
+    and user_age < 25
+    or user_country == "USA"
+    and user_age < 20
+):
+    print("You qualify")
+else:
+    print("You don't qualify")
+
+# Nested if statements
+answer_a = input("Do you like traveling y/n: ")
+if answer_a == "y":
+    answer_b = input("And do you like Asia? y/n: ")
+    if answer_b == "y":
+        print("Excellent: You can win a ticket to Thailand: ")
+    else:
+        print("Sorry to hear that: ")
+else:
+    print("Sorry to hear that: ")
+
+
+# While loop in Python allows you to repeatedly execute a block of code as long as a certain condition is true. It's useful when you want to perform a task repeatedly until a specific condition is met.
+count = 1
+while count < 10:
+    count += 1
+    print(count)
