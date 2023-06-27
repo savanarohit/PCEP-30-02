@@ -107,3 +107,80 @@ count = 1
 while count < 10:
     count += 1
     print(count)
+
+# Example - Secret Number guess game
+secret_number = 15
+user_input = int(input("Enter a number between 10 to 20: "))
+while user_input != secret_number:
+    print("Wrong")
+    user_input = int(input("Try to guess the secret number from 10 to 20: "))
+print("Perfect! You have guessed the secret number:")
+
+
+# For loop is a control flow statement that allows you to iterate over a sequence (such as a list, tuple, string, or range) or any iterable object. It repeatedly executes a block of code for each item in the sequence until all items have been processed
+
+# Example 1
+fruits = ["apple", "orange", "grapefruit"]
+
+for f in fruits:
+    print(f)
+
+# Example 2
+for counter in range(5):
+    print(counter)
+
+# Example 3
+for counter in range(1, 5):
+    print(counter)
+
+# Example 4
+# the last number 2 is increment value
+for counter in range(1, 10, 2):
+    print(counter)
+
+
+# Break statement is used to exit a loop prematurely. It allows you to terminate the execution of a loop before it has completed all its iterations. When the break statement is encountered, the control flow immediately exits the loop, and the program continues with the next statement after the loop.
+
+bookshelf = ["fiction", "science", "biography", "history", "poetry"]
+
+for shelf in bookshelf:
+    if shelf == "biography":
+        print("Found the book in the", shelf, "section!")
+        break
+    else:
+        print("Searching in the", shelf, "section...")
+
+print("End of search.")
+
+
+# Continue statement is used to skip the remaining code within a loop iteration and proceed to the next iteration. When the continue statement is encountered, it immediately jumps to the next iteration without executing any further code within the loop for the current iteration.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for num in numbers:
+    if num % 2 == 0:
+        continue
+    print(num)
+
+# Pass
+for i in range(11):
+    pass  # Loop, If , elif and else requires at least one instruction inside it's body
+
+# Nested Loop is a loop inside another loop. It allows you to create complex iterations by nesting one loop inside another. The inner loop is executed for each iteration of the outer loop.
+
+primary_colors = ["red", "blue", "yellow"]
+secondary_colors = ["orange", "green", "purple"]
+
+for primary_color in primary_colors:
+    for secondary_color in secondary_colors:
+        print(primary_color, "and", secondary_color)
+
+
+# Loops with else statement
+i = 5
+while i < 5:
+    print(i)
+    i += 1
+    break
+else:
+    print("else:", i)
