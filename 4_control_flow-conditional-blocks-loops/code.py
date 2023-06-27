@@ -65,3 +65,10 @@ if user_age < 25 or user_country == "India":
     print("You can apply for a India student exchange programme")
 else:
     print("Sorry, you do not qualify")
+
+# Example - not (It will negates the boolean value if a condition is True it will turn it to False and vice-versa)
+user_country = input("Enter your country name: ")
+if not user_country == "India":
+    print("You are not from India")
+else:
+    print("You are from India")
